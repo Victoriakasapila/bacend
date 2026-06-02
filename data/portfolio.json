@@ -1,0 +1,73 @@
+{
+  "profile": {
+    "name": "Victoria Deogratius Kasapila",
+    "title": "Data Science Student & Creative Developer",
+    "tagline": "Data Science Student & Creative Developer",
+    "bio": "Hello, I'm Victoria Kasapila — a passionate Data Science student focused on intelligent systems, data analytics, machine learning, backend development and modern web technologies. I enjoy building innovative digital systems that solve real-world problems through creativity and technology.",
+    "about": "I am a motivated and creative Data Science student passionate about data analysis, artificial intelligence, machine learning, backend systems and frontend development. I enjoy exploring technology that transforms raw data into meaningful insights and interactive digital experiences.\n\nMy interests include data visualization, web applications, automation systems, APIs, databases and modern UI/UX design. I continuously learn new technologies and build projects that improve efficiency, creativity and innovation.",
+    "email": "vkasapila@email.com",
+    "phone": "+255748716585",
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/",
+    "cvUrl": "/cv.pdf",
+    "photoUrl": "/victoria.jpg",
+    "qualifications": ["BSc Data Science"],
+    "hobbies": ["reading books", "content creation", "singing choir", "swimming"],
+    "skillGroups": [
+      {
+        "title": "Data Science",
+        "description": "Data Cleaning, EDA, Machine Learning, Data Visualization, Pandas, NumPy and Statistical Analysis."
+      },
+      {
+        "title": "Frontend Development",
+        "description": "Building responsive websites using HTML, CSS, JavaScript, React and modern UI design principles."
+      },
+      {
+        "title": "Backend Development",
+        "description": "Creating APIs and systems using Node.js, Express.js, MongoDB and cloud deployment platforms."
+      },
+      {
+        "title": "Tools & Technologies",
+        "description": "GitHub, VS Code, MongoDB Atlas, Render, Vercel, Python and Data Visualization Libraries."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "eda-cleaner",
+      "title": "Automated Data Cleaner & EDA System",
+      "description": "A smart web application that automatically cleans datasets, removes duplicates, handles missing values and performs exploratory data analysis.",
+      "tags": ["Python", "Pandas", "EDA", "Web App"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "featured": true
+    },
+    {
+      "id": "portfolio-system",
+      "title": "Dynamic Portfolio & Analytics System",
+      "description": "A full-stack portfolio system with frontend, backend APIs, analytics tracking and downloadable portfolio integration.",
+      "tags": ["React", "Node.js", "Express", "API"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "featured": true
+    },
+    {
+      "id": "student-dashboard",
+      "title": "Student Data Dashboard",
+      "description": "Interactive dashboard for student data visualization, filtering, analytics and reporting using modern charts.",
+      "tags": ["Data Viz", "Dashboard", "JavaScript"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "featured": false
+    },
+    {
+      "id": "ml-prediction",
+      "title": "Machine Learning Prediction System",
+      "description": "Predictive system using machine learning algorithms to analyze datasets and generate intelligent predictions.",
+      "tags": ["Machine Learning", "Python", "Scikit-learn"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "featured": false
+    }
+  ]
+}
