@@ -8,16 +8,13 @@ const contactRoutes = require("./routes/contact");
 
 const app = express();
 
-app.use(
-  cors({
-    origin: [
-      "http://localhost:5173",
-      "http://127.0.0.1:5173",
-      "http://localhost:4173",
-      "http://127.0.0.1:4173",
-    ],
-  })
-);
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:4173",
+  "https://your-frontend.vercel.app" // replace later
+];
+
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
